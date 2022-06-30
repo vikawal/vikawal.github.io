@@ -1,0 +1,173 @@
+@import url ('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.image {
+  background-image: url('https://images.unsplash.com/photo-1655909248336-7b1491cf58b6?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTYyNTI0NDc&ixlib=rb-1.2.1&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.container1{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-tamplate-rows: repeat(6, 1fr);
+  gap:1rem;
+  grid-auto-flow:row;
+ 
+}
+
+.ProjectName {
+  color:#FF6D00;
+  font-weight:bold;
+  font-size:medium;
+  padding:20px;
+  border-radius: 4px;
+  font-family: Poppins;/*не работает почему?*/
+  position: relative;
+}  
+.myWeb {
+  position: absolute; /*оно на том же уровне, что и меню? Вроде да*/
+  top: 50%;
+  left:50%;
+}
+.navigation {
+  background:none;
+  padding:30px;
+  border-radius: 4px;
+  position: relative; 
+  display:inline-block;
+       }
+a {
+  padding:50px;
+  text-decoration:none;
+  color:#FFEA00;
+  font-weight:bold;
+    }
+  ul{
+     list-style: none;
+     display:flex;
+     position:absolute;
+     text-align: center;   
+  }
+ 
+a:hover {
+  color: #fff;
+}
+
+.round{
+  border-radius:50%;
+}
+.avatar img {
+  width:150px;
+  height:150px;
+  border:5px solid #90A4AE;
+  object-fit:cover;
+  box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+.avatarRow {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:3;
+  background:none;
+  color:white;
+  padding:10px;
+  justify-self:center;
+}
+h1 {
+  color:white;
+   }
+.name{
+ grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:4; 
+  background:none;
+  padding:10px;
+  text-align: center;
+  font-family:Poppins;
+  color:#FBC02D;
+}
+.button {
+  cursor:pointer;
+  color:rgb(51,51,51);
+  border: 3px solid rbg(238, 238, 238);
+  background:#26A69A;
+  padding:0 20px;
+  height:50px;
+  border-radius:30px;
+  line-height:47px;
+  font-size:15px;
+  min-width:150px;
+  max-width:150px;
+}
+.shadow1 {
+  justify-self:right;
+}
+
+.social-media svg {
+  fill: #F57F17;
+  width: 40px;
+  margin-right: 10px;
+  padding:20px; 
+}
+.social-media{
+  background:none;
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:5;
+  grid-row-end:6; 
+  margin:auto;
+}
+.container2 {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-tamplate-rows:auto;
+  gap:1rem;
+  grid-auto-flow:row;
+  background:#66BB6A;  
+}
+.card {
+  background: #fff;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.card p {
+  font-weight: 400;
+  color: rgb(95, 111, 129);
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+.card.about {
+  display: grid;
+  grid-template: auto / 50% 50%;
+  gap: 30px;
+  max-width: auto;
+}
+.badge {
+  background: rgb(240, 240, 240);
+  padding: 2px 5px;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 13px;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(51,51,51);
+  margin: 0 0 20px 0;
+}
+.card svg {
+  fill: rgb(51, 51, 51);
+  width: 30px;
+  margin: 0 0 24px 0;
+}
+.shadow {
+  box-shadow: 0 4px 8px rgb(134 151 168 / 10%);
+}
+.card.centered {
+  /*почему за ней фон не зеленьій?*/
+  text-align: center;
+  border-radius:30px;
+  background:#90A4AE;
+}
