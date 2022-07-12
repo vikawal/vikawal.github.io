@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+
+.nameCV{
+  font-size:30px;
+  font-weight:bold;
+  background:;
+  color:#37474F;
+  padding:10px;
+  text-align: center;
+}
+main {
+  display: grid;
+  height: 100vh;
+  gap: 10px;
+  grid-template: 100% / 30% 70%;
+  grid-auto-flow: column;
+}
+.leftColumn1 {
+  font-size:20px;
+  color:#263238;
+  text-align: center; 
+  background:;
+  padding:20px;
+}
+.leftColumn2 {
+  font-size:20px;
+  color:#263238;
+  text-align: center; 
+  background:;
+  padding:20px;
+}  
+
+ul {
+  padding-left:70px;
+   text-align: left; 
+}
+.leftColumn3 {
+  font-size:20px;
+  color:#263238;
+  text-align: center; 
+  background:;
+  padding:20px;
+}
+.language-list {
+  list-style-type:none;
+  padding-left:100px;
+  text-align: left; 
+}
+.leftColumn4{
+  font-size:20px;
+  color:#263238;
+  text-align: center; 
+  background:;
+  padding:20px;
+  color:#263238; 
+}
+.leftColumn5{
+  font-size:20px;
+  color:#263238;
+  text-align: center; 
+  background:;
+  padding:20px;
+  color:#263238; 
+  
+}
+.mainColumn1 {
+  font-size:20px;
+  color:#263238;
+  text-align: left; 
+  background:;
+  padding:20px;
+  color:#263238;
+  border-left:5px solid gray;
+  padding-left:15px;
+}
+.mainColumn2 {
+  font-size:20px;
+  color:#263238;
+  text-align: left; 
+  background:;
+  padding:20px;
+  color:#263238;
+  border-left:5px solid gray;
+  padding-left:15px;
+}
+.bold {
+  font-weight:bold;
+}
+.italic {
+  font-style:italic;
+}
+.mainColumn3 {
+  font-size:20px;
+  color:#263238;
+  text-align: left; 
+  background:;
+  padding:20px;
+  color:#263238;
+  border-left:5px solid gray;
+  padding-left:15px;
+}
+.mainColumn4 {
+  font-size:20px;
+  color:#263238;
+  text-align: left; 
+  background:;
+  padding:20px;
+  color:#263238;
+  border-left:5px solid gray;
+  padding-left:15px;
+}
+.mainColumn5 {
+  font-size:20px;
+  color:#263238;
+  text-align: left; 
+  background:;
+  padding:20px;
+  color:#263238;
+  border-left:5px solid gray;
+  padding-left:15px;
+}
