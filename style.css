@@ -19,7 +19,7 @@
 .ProjectName {
   color:#FF6D00;
   font-weight:bold;
-  font-size:medium;
+  font-size:25px;
   padding:20px;
   border-radius: 4px;
   font-family: Poppins;/*не работает почему?*/
@@ -28,14 +28,14 @@
 .myWeb {
   position: absolute; /*оно на том же уровне, что и меню? Вроде да*/
   top: 45%;
-  left:45%;
+  left:30%;
   
 }
 .navigation {
   background:none;
   padding:10%;
   padding-left: 20px;
-
+  font-size:20px;
   border-radius: 4px;
   position: relative; 
   display:inline-block;
@@ -61,8 +61,8 @@ a:hover {
   border-radius:50%;
 }
 .avatar img {
-  width:150px;
-  height:150px;
+  width:200px;
+  height:200px;
   border:5px solid #90A4AE;
   object-fit:cover;
   box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.5);
@@ -90,6 +90,7 @@ h1 {
   text-align: center;
   font-family:Poppins;
   color:#FBC02D;
+  font-size:30px;
 }
 .button {
   cursor:pointer;
