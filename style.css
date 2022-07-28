@@ -112,6 +112,7 @@ h1 {
 .button:hover {
   background-color: #26cf13; /* Green */
   color: white;
+  box-shadow: 0 12px 16px 0 rgba(29, 241, 9, 0.24), 0 17px 50px 0 rgba(193, 244, 10, 0.19);
 }
 .shadow1 {
   justify-self:right;
