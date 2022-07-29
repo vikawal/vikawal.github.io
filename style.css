@@ -194,4 +194,17 @@ h1 {
 p {
   overflow: auto;
 }
+.container2 {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:auto;
+  gap:1rem;
+  grid-auto-flow:row;
+  background:#66BB6A;  
+}
+.card p {
+  
+  font-size: 25px;
+  
+}
 }
