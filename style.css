@@ -149,7 +149,7 @@ h1 {
 .card p {
   font-weight: 400;
   color: rgb(95, 111, 129);
-  font-size: 16px;
+  font-size: 30px;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -193,5 +193,13 @@ h1 {
   }
 p {
   overflow: auto;
+}
+.container2 {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:auto;
+  gap:1rem;
+  grid-auto-flow:row;
+  background:#66BB6A;  
 }
 }
