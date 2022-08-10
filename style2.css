@@ -32,7 +32,7 @@ main {
 }  
 
 ul {
-  padding-left:70px;
+  padding-left:20%;
    text-align: left; 
 }
 .leftColumn3 {
@@ -44,7 +44,7 @@ ul {
 }
 .language-list {
   list-style-type:none;
-  padding-left:100px;
+  padding-left:20%;
   text-align: left; 
 }
 .leftColumn4{
@@ -119,4 +119,6 @@ ul {
   color:#263238;
   border-left:5px solid gray;
   padding-left:15px;
+}
+@media only screen and (max-device-width:450px) {
 }
